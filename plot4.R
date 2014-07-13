@@ -22,7 +22,7 @@ png(filename = "plot4.png",
     height = 480,
     units = "px")
 
-# construct plot 4: line graph of day of week by global active power (kilowatts) 
+# construct plot 4: four line graphs 
 par(mfrow = c(2, 2))
 with(data, {
   plot(datetime, 

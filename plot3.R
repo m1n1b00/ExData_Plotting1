@@ -22,7 +22,7 @@ png(filename = "plot3.png",
     height = 480,
     units = "px")
 
-# construct plot 3: line graph of day of week by global active power (kilowatts) 
+# construct plot 3: three line graphs of energy submetering 
 plot(data$datetime, 
      data$Sub_metering_1, 
      type = "l",
